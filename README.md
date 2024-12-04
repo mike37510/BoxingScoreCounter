@@ -69,18 +69,21 @@ The firmware reads the button states and increments the score based on the butto
 
 Buttons are configured with pull-up resistors.
 When a button is pressed, its state is LOW.
+
 Points are added to the score based on the button pressed:
-Button 1 → +1 point
-Button 2 → +2 points
-Button 3 → +4 points
-The reset button sets the score back to zero.
-The TM1637 display shows the current score in real-time.
-Future Enhancements
-Add a battery-powered option for portability.
+- **Button 1 → +1 point
+- **Button 2 → +2 points
+- **Button 3 → +4 points
+- **The reset button sets the score back to zero.
+- **The TM1637 display shows the current score in real-time.
+
+### Future Enhancements
+
 Incorporate a buzzer to signal scoring events.
 Add wireless capabilities (e.g., Bluetooth) for remote score tracking.
 Add a timer to track rounds or match duration.
-License
+
+###  License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
