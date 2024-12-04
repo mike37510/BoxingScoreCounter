@@ -71,11 +71,11 @@ Buttons are configured with pull-up resistors.
 When a button is pressed, its state is LOW.
 
 Points are added to the score based on the button pressed:
-- **Button 1 → +1 point
-- **Button 2 → +2 points
-- **Button 3 → +4 points
-- **The reset button sets the score back to zero.
-- **The TM1637 display shows the current score in real-time.
+- **Button 1 → +1 point**
+- **Button 2 → +2 points**
+- **Button 3 → +4 points**
+- **The reset button sets the score back to zero.**
+- **The TM1637 display shows the current score in real-time.**
 
 ### Future Enhancements
 
